@@ -1,0 +1,4 @@
+gym==0.21.0
+mujoco_py==2.1.2.14
+pyglet==1.5.0
+pygame==2.0.0
