@@ -1,0 +1,7 @@
+gpflow==2.3.0
+tensorflow==2.6.0
+tensorflow_probability==0.14.1
+numpy==1.19.5
+scipy==1.8.1
+keras==2.6.0
+tqdm==4.62.3

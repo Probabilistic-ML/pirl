@@ -1,0 +1,9 @@
+*.pkl
+**/__pycache__/
+pirl.egg-info/
+*.out
+loss_history*.txt
+*.h5
+*.zip
+*.npy
+.idea/*
