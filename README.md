@@ -89,7 +89,7 @@ A DGCN instance is initialized in use of
 
     model = DGCN(X, y, num_neurons=20)
 
-where X and y are the training samples and labels, respectively, and num_neurons specifies the number of neurons in the hidden layers of the neural network.
+where `X` and `y` are the training samples and labels, respectively, and `num_neurons` specifies the number of neurons in the hidden layers of the neural network.
 
 Afterwards, model training takes place in use of the fit method
 
@@ -101,8 +101,10 @@ Finally, the predict method is used to make predictions on test samples
 
     y_pred, var = model.predict(X, pred_var=True)
 
-where y_pred is the mean prediction of the model, var denotes the variance of the predictions, X are the test samples and var is None if pred_var is False. Instead of the predict method it is also possible to use _predict which will not cast X to the required datatype before prediction.
-## Contributors ✨
+where `y_pred` is the mean prediction of the model, `var` denotes the variance of the predictions, `X` are the test samples. `var` is `None` if `pred_var` is `False`. Instead of the predict method, it is also possible to use `_predict` which will not cast `X` to the required datatype before prediction.
+This increases the speed but may result in undefined behaviour in case of wrong types.
+
+# Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -112,6 +114,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rvosshall"><img src="https://avatars.githubusercontent.com/u/74900668?v=4?s=100" width="100px;" alt="Robert Voßhall"/><br /><sub><b>Robert Voßhall</b></sub></a><br /><a href="https://github.com/Probabilistic-ML/pirl/commits?author=rvosshall" title="Code">💻</a> <a href="https://github.com/Probabilistic-ML/pirl/commits?author=rvosshall" title="Documentation">📖</a> <a href="#data-rvosshall" title="Data">🔣</a> <a href="#ideas-rvosshall" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/canbooo"><img src="https://avatars.githubusercontent.com/u/44531896?v=4?s=100" width="100px;" alt="Can Bogoclu"/><br /><sub><b>Can Bogoclu</b></sub></a><br /><a href="#design-canbooo" title="Design">🎨</a> <a href="https://github.com/Probabilistic-ML/pirl/commits?author=canbooo" title="Code">💻</a> <a href="#ideas-canbooo" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Probabilistic-ML/pirl/commits?author=canbooo" title="Documentation">📖</a></td>
     </tr>
   </tbody>
@@ -123,3 +126,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
