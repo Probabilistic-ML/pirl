@@ -86,7 +86,7 @@ A DGCN instance is initialized in use of
 
     model = DGCN(X, y, num_neurons=20)
 
-where X and y are the training samples and labels, respectively, and num_neurons specifies the number of neurons in the hidden layers of the neural network.
+where `X` and `y` are the training samples and labels, respectively, and `num_neurons` specifies the number of neurons in the hidden layers of the neural network.
 
 Afterwards, model training takes place in use of the fit method
 
@@ -98,4 +98,5 @@ Finally, the predict method is used to make predictions on test samples
 
     y_pred, var = model.predict(X, pred_var=True)
 
-where y_pred is the mean prediction of the model, var denotes the variance of the predictions, X are the test samples and var is None if pred_var is False. Instead of the predict method it is also possible to use _predict which will not cast X to the required datatype before prediction.
+where `y_pred` is the mean prediction of the model, `var` denotes the variance of the predictions, `X` are the test samples. `var` is `None` if `pred_var` is `False`. Instead of the predict method, it is also possible to use `_predict` which will not cast `X` to the required datatype before prediction.
+This increases the speed but may result in undefined behaviour in case of wrong types.
