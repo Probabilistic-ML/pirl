@@ -7,16 +7,28 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "canbooo",
+      "name": "Can Bogoclu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44531896?v=4",
+      "profile": "https://github.com/canbooo",
+      "contributions": [
+        "design",
+        "code",
+        "ideas",
+        "doc"
+      ]
+    },
+    {
       "login": "rvosshall",
       "name": "Robert Voßhall",
       "avatar_url": "https://avatars.githubusercontent.com/u/74900668?v=4",
       "profile": "https://github.com/rvosshall",
       "contributions": [
+        "ideas",
         "code",
+        "design",
         "doc",
         "data",
-        "ideas",
-        "design",
         "research"
       ]
     }
