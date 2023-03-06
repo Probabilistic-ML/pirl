@@ -112,7 +112,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/canbooo"><img src="https://avatars.githubusercontent.com/u/44531896?v=4?s=100" width="100px;" alt="Can Bogoclu"/><br /><sub><b>Can Bogoclu</b></sub></a><br /><a href="#design-canbooo" title="Design">🎨</a> <a href="https://github.com/Probabilistic-ML/pirl/commits?author=canbooo" title="Code">💻</a> <a href="#ideas-canbooo" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/canbooo"><img src="https://avatars.githubusercontent.com/u/44531896?v=4?s=100" width="100px;" alt="Can Bogoclu"/><br /><sub><b>Can Bogoclu</b></sub></a><br /><a href="#design-canbooo" title="Design">🎨</a> <a href="https://github.com/Probabilistic-ML/pirl/commits?author=canbooo" title="Code">💻</a> <a href="#ideas-canbooo" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Probabilistic-ML/pirl/commits?author=canbooo" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
